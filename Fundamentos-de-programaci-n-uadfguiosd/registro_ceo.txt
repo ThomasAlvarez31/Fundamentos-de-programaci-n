@@ -1,0 +1,2 @@
+Trabajador , Cargo, Sueldo Bruto, Desc. Salud, Desc. AFP, Liquido a pagar
+Ignacio Bittner , CEO , 10000 , 700 , 1200 , 8100
