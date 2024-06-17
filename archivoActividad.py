@@ -1,4 +1,6 @@
+from archivoActividad21 import datos
 import csv
+
 #Calculo de Desc. Salud, Desc. AFP y liquido a pagar
 def descuentos(sueldo_bruto):
     global desc_salud
@@ -23,7 +25,7 @@ def imprimir_planilla():
         #Declarar lectura como diccionario
         lector_csv = csv.DictReader(archivo_csv)
         #Iteracion en cada fila del archivo_csv
-        for fila in archivo_csv:
+        for fila in lector_csv:
             nombre = fila['Nombre']
             cargo = fila['Cargo']
             sueldo_bruto = fila['Sueldo']
